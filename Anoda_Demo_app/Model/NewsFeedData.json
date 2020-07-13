@@ -1,0 +1,16 @@
+    {
+    "news": [
+    {
+    "owner" : "FirstOwner",
+    "loc" : "FirstLocation",
+    "img" : "defaultPost",
+    "ownerImg" : "defaultImage",
+    },
+    {
+    "owner" : "SecondOwner",
+    "loc" : "SecondLoc",
+    "img" : "defaultPost",
+    "ownerImg" : "defaultImage",
+    }
+    ]
+    }

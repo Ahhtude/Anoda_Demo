@@ -3,17 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15503D613560FB1F9F4B26D0 /* Pods_Anoda_Demo_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE2301E176EAD9A62A4E5ED /* Pods_Anoda_Demo_app.framework */; };
 		249ECDE924B5AD4E0075773D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249ECDE824B5AD4E0075773D /* AppDelegate.swift */; };
 		249ECDEB24B5AD4E0075773D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249ECDEA24B5AD4E0075773D /* SceneDelegate.swift */; };
 		249ECDED24B5AD4E0075773D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249ECDEC24B5AD4E0075773D /* ViewController.swift */; };
-		249ECDF024B5AD4E0075773D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249ECDEE24B5AD4E0075773D /* Main.storyboard */; };
 		249ECDF224B5AD4F0075773D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249ECDF124B5AD4F0075773D /* Assets.xcassets */; };
 		249ECDF524B5AD4F0075773D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249ECDF324B5AD4F0075773D /* LaunchScreen.storyboard */; };
 		249ECE0024B5AD4F0075773D /* Anoda_Demo_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249ECDFF24B5AD4F0075773D /* Anoda_Demo_appTests.swift */; };
+		249ECE0B24B5AE530075773D /* NewsFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249ECE0A24B5AE530075773D /* NewsFeedController.swift */; };
+		249ECE0D24B5B0050075773D /* BaseNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249ECE0C24B5B0050075773D /* BaseNavController.swift */; };
+		249ECE0F24B5B02F0075773D /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249ECE0E24B5B02F0075773D /* BaseTabBarController.swift */; };
+		249ECE1124B5C0E20075773D /* NewsFeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249ECE1024B5C0E20075773D /* NewsFeedViewModel.swift */; };
+		249ECE1524B5C6A30075773D /* NewsFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249ECE1424B5C6A30075773D /* NewsFeed.swift */; };
+		249ECE1724B5F3E20075773D /* NewsFeedData.json in Resources */ = {isa = PBXBuildFile; fileRef = 249ECE1624B5F3E20075773D /* NewsFeedData.json */; };
+		249ECE1924B5F4870075773D /* NewsFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249ECE1824B5F4870075773D /* NewsFeedCell.swift */; };
+		249ECE1B24B5F4940075773D /* NewsFeedCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249ECE1A24B5F4940075773D /* NewsFeedCellViewModel.swift */; };
+		249ECE1E24B5FA190075773D /* HeaderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249ECE1D24B5FA190075773D /* HeaderCellView.swift */; };
+		249ECE2124B60F800075773D /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249ECE2024B60F800075773D /* UIImageView + Extension.swift */; };
+		249ECE2324B6211A0075773D /* UILabel + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249ECE2224B6211A0075773D /* UILabel + Extension.swift */; };
+		249ECE2524B625CF0075773D /* BottomCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249ECE2424B625CF0075773D /* BottomCellView.swift */; };
+		249ECE2C24B73DF60075773D /* TableViewSection + Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249ECE2B24B73DF60075773D /* TableViewSection + Page.swift */; };
+		249ECE3024BB8BB30075773D /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249ECE2F24BB8BB30075773D /* LikeButton.swift */; };
+		249ECE3224BCB43B0075773D /* UIStackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249ECE3124BCB43B0075773D /* UIStackView + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +42,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BDE69163CB919F6AF83B246 /* Pods-Anoda_Demo_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anoda_Demo_app.debug.xcconfig"; path = "Target Support Files/Pods-Anoda_Demo_app/Pods-Anoda_Demo_app.debug.xcconfig"; sourceTree = "<group>"; };
 		249ECDE524B5AD4E0075773D /* Anoda_Demo_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anoda_Demo_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		249ECDE824B5AD4E0075773D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		249ECDEA24B5AD4E0075773D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		249ECDEC24B5AD4E0075773D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		249ECDEF24B5AD4E0075773D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		249ECDF124B5AD4F0075773D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		249ECDF424B5AD4F0075773D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		249ECDF624B5AD4F0075773D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		249ECDFB24B5AD4F0075773D /* Anoda_Demo_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Anoda_Demo_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		249ECDFF24B5AD4F0075773D /* Anoda_Demo_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anoda_Demo_appTests.swift; sourceTree = "<group>"; };
 		249ECE0124B5AD4F0075773D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		249ECE0A24B5AE530075773D /* NewsFeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedController.swift; sourceTree = "<group>"; };
+		249ECE0C24B5B0050075773D /* BaseNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavController.swift; sourceTree = "<group>"; };
+		249ECE0E24B5B02F0075773D /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		249ECE1024B5C0E20075773D /* NewsFeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedViewModel.swift; sourceTree = "<group>"; };
+		249ECE1424B5C6A30075773D /* NewsFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeed.swift; sourceTree = "<group>"; };
+		249ECE1624B5F3E20075773D /* NewsFeedData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NewsFeedData.json; sourceTree = "<group>"; };
+		249ECE1824B5F4870075773D /* NewsFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedCell.swift; sourceTree = "<group>"; };
+		249ECE1A24B5F4940075773D /* NewsFeedCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedCellViewModel.swift; sourceTree = "<group>"; };
+		249ECE1D24B5FA190075773D /* HeaderCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCellView.swift; sourceTree = "<group>"; };
+		249ECE2024B60F800075773D /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
+		249ECE2224B6211A0075773D /* UILabel + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extension.swift"; sourceTree = "<group>"; };
+		249ECE2424B625CF0075773D /* BottomCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCellView.swift; sourceTree = "<group>"; };
+		249ECE2B24B73DF60075773D /* TableViewSection + Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableViewSection + Page.swift"; sourceTree = "<group>"; };
+		249ECE2F24BB8BB30075773D /* LikeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
+		249ECE3124BCB43B0075773D /* UIStackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extension.swift"; sourceTree = "<group>"; };
+		6AE2301E176EAD9A62A4E5ED /* Pods_Anoda_Demo_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Anoda_Demo_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE04732F3BF15D55D244EF1 /* Pods-Anoda_Demo_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anoda_Demo_app.release.xcconfig"; path = "Target Support Files/Pods-Anoda_Demo_app/Pods-Anoda_Demo_app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15503D613560FB1F9F4B26D0 /* Pods_Anoda_Demo_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +91,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E4D67DDE0781EC626A81A33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BDE69163CB919F6AF83B246 /* Pods-Anoda_Demo_app.debug.xcconfig */,
+				EDE04732F3BF15D55D244EF1 /* Pods-Anoda_Demo_app.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		249ECDDC24B5AD4E0075773D = {
 			isa = PBXGroup;
 			children = (
 				249ECDE724B5AD4E0075773D /* Anoda_Demo_app */,
 				249ECDFE24B5AD4F0075773D /* Anoda_Demo_appTests */,
 				249ECDE624B5AD4E0075773D /* Products */,
+				1E4D67DDE0781EC626A81A33 /* Pods */,
+				93CC581FBA802A459C635C77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,10 +123,15 @@
 		249ECDE724B5AD4E0075773D /* Anoda_Demo_app */ = {
 			isa = PBXGroup;
 			children = (
+				249ECE2A24B73DE70075773D /* Components */,
+				249ECE1F24B60F6E0075773D /* Extensions */,
+				249ECE1324B5C6930075773D /* Model */,
 				249ECDE824B5AD4E0075773D /* AppDelegate.swift */,
 				249ECDEA24B5AD4E0075773D /* SceneDelegate.swift */,
+				249ECE0C24B5B0050075773D /* BaseNavController.swift */,
+				249ECE0E24B5B02F0075773D /* BaseTabBarController.swift */,
 				249ECDEC24B5AD4E0075773D /* ViewController.swift */,
-				249ECDEE24B5AD4E0075773D /* Main.storyboard */,
+				249ECE1224B5C6730075773D /* NewsFeedController */,
 				249ECDF124B5AD4F0075773D /* Assets.xcassets */,
 				249ECDF324B5AD4F0075773D /* LaunchScreen.storyboard */,
 				249ECDF624B5AD4F0075773D /* Info.plist */,
@@ -99,6 +148,63 @@
 			path = Anoda_Demo_appTests;
 			sourceTree = "<group>";
 		};
+		249ECE1224B5C6730075773D /* NewsFeedController */ = {
+			isa = PBXGroup;
+			children = (
+				249ECE1C24B5F49C0075773D /* View */,
+				249ECE1024B5C0E20075773D /* NewsFeedViewModel.swift */,
+				249ECE0A24B5AE530075773D /* NewsFeedController.swift */,
+			);
+			path = NewsFeedController;
+			sourceTree = "<group>";
+		};
+		249ECE1324B5C6930075773D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				249ECE1424B5C6A30075773D /* NewsFeed.swift */,
+				249ECE1624B5F3E20075773D /* NewsFeedData.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		249ECE1C24B5F49C0075773D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				249ECE1824B5F4870075773D /* NewsFeedCell.swift */,
+				249ECE1A24B5F4940075773D /* NewsFeedCellViewModel.swift */,
+				249ECE1D24B5FA190075773D /* HeaderCellView.swift */,
+				249ECE2424B625CF0075773D /* BottomCellView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		249ECE1F24B60F6E0075773D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				249ECE2024B60F800075773D /* UIImageView + Extension.swift */,
+				249ECE2224B6211A0075773D /* UILabel + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		249ECE2A24B73DE70075773D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				249ECE2B24B73DF60075773D /* TableViewSection + Page.swift */,
+				249ECE2F24BB8BB30075773D /* LikeButton.swift */,
+				249ECE3124BCB43B0075773D /* UIStackView + Extension.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		93CC581FBA802A459C635C77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AE2301E176EAD9A62A4E5ED /* Pods_Anoda_Demo_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 249ECE0424B5AD500075773D /* Build configuration list for PBXNativeTarget "Anoda_Demo_app" */;
 			buildPhases = (
+				C2B4F006C1BE69D1994E86EF /* [CP] Check Pods Manifest.lock */,
 				249ECDE124B5AD4E0075773D /* Sources */,
 				249ECDE224B5AD4E0075773D /* Frameworks */,
 				249ECDE324B5AD4E0075773D /* Resources */,
+				29920595B6DC85CBB7FEC954 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -181,8 +289,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				249ECDF524B5AD4F0075773D /* LaunchScreen.storyboard in Resources */,
+				249ECE1724B5F3E20075773D /* NewsFeedData.json in Resources */,
 				249ECDF224B5AD4F0075773D /* Assets.xcassets in Resources */,
-				249ECDF024B5AD4E0075773D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,14 +303,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29920595B6DC85CBB7FEC954 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Anoda_Demo_app/Pods-Anoda_Demo_app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Anoda_Demo_app/Pods-Anoda_Demo_app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Anoda_Demo_app/Pods-Anoda_Demo_app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2B4F006C1BE69D1994E86EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Anoda_Demo_app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		249ECDE124B5AD4E0075773D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				249ECE2124B60F800075773D /* UIImageView + Extension.swift in Sources */,
+				249ECE0B24B5AE530075773D /* NewsFeedController.swift in Sources */,
+				249ECE3224BCB43B0075773D /* UIStackView + Extension.swift in Sources */,
+				249ECE1B24B5F4940075773D /* NewsFeedCellViewModel.swift in Sources */,
+				249ECE2C24B73DF60075773D /* TableViewSection + Page.swift in Sources */,
 				249ECDED24B5AD4E0075773D /* ViewController.swift in Sources */,
+				249ECE1524B5C6A30075773D /* NewsFeed.swift in Sources */,
+				249ECE1E24B5FA190075773D /* HeaderCellView.swift in Sources */,
+				249ECE0F24B5B02F0075773D /* BaseTabBarController.swift in Sources */,
+				249ECE1124B5C0E20075773D /* NewsFeedViewModel.swift in Sources */,
+				249ECE1924B5F4870075773D /* NewsFeedCell.swift in Sources */,
 				249ECDE924B5AD4E0075773D /* AppDelegate.swift in Sources */,
+				249ECE2324B6211A0075773D /* UILabel + Extension.swift in Sources */,
+				249ECE3024BB8BB30075773D /* LikeButton.swift in Sources */,
+				249ECE2524B625CF0075773D /* BottomCellView.swift in Sources */,
 				249ECDEB24B5AD4E0075773D /* SceneDelegate.swift in Sources */,
+				249ECE0D24B5B0050075773D /* BaseNavController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +389,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		249ECDEE24B5AD4E0075773D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				249ECDEF24B5AD4E0075773D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		249ECDF324B5AD4F0075773D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -360,6 +516,7 @@
 		};
 		249ECE0524B5AD500075773D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BDE69163CB919F6AF83B246 /* Pods-Anoda_Demo_app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +535,7 @@
 		};
 		249ECE0624B5AD500075773D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDE04732F3BF15D55D244EF1 /* Pods-Anoda_Demo_app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
